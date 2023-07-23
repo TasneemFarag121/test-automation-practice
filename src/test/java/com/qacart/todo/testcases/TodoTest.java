@@ -33,38 +33,6 @@ public class TodoTest {
 
 
     }
-    public void shouldBeAbleToAddTodo_git22222(){
-
-        Todo todo = TodoSteps.generateTodo();
-
-        String token = UserSteps.getUserToken();
-
-        Response response = TodoApi.addTodo(todo,token);
-
-        Todo returnedTodo = response.body().as(Todo.class);
-
-        assertThat(response.statusCode(),equalTo(201));
-        assertThat(returnedTodo.getItem(),equalTo(todo.getItem()));
-        assertThat(returnedTodo.getIsCompleted(),equalTo(todo.getIsCompleted()));
-
-
-    }
-    public void shouldBeAbleToAddTodo_git33333(){
-
-        Todo todo = TodoSteps.generateTodo();
-
-        String token = UserSteps.getUserToken();
-
-        Response response = TodoApi.addTodo(todo,token);
-
-        Todo returnedTodo = response.body().as(Todo.class);
-
-        assertThat(response.statusCode(),equalTo(201));
-        assertThat(returnedTodo.getItem(),equalTo(todo.getItem()));
-        assertThat(returnedTodo.getIsCompleted(),equalTo(todo.getIsCompleted()));
-
-
-    }
     @Test
     public void shouldNotBeAbleToAddTodoIfIsCompletedIsMissing(){
 

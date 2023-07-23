@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.307" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Tasneem\workspace\testautomationu\todo-application-api-project\target\test-classes;C:\Users\Tasneem\workspace\testautomationu\todo-application-api-project\target\classes;C:\Users\Tasneem\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\Tasneem\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\Tasneem\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\Tasneem\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Tasneem\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Tasneem\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Tasneem\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Tasneem\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Tasneem\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Tasneem\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Tasneem\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\Tasneem\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\Tasneem\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\Tasneem\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\Tasneem\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Tasneem\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Tasneem\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Tasneem\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Tasneem\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\Tasneem\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\Tasneem\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\Tasneem\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Tasneem\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Tasneem\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Tasneem\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Tasneem\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Tasneem\.m2\repository\io\qameta\allure\allure-testng\2.23.0\allure-testng-2.23.0.jar;C:\Users\Tasneem\.m2\repository\io\qameta\allure\allure-java-commons\2.23.0\allure-java-commons-2.23.0.jar;C:\Users\Tasneem\.m2\repository\io\qameta\allure\allure-model\2.23.0\allure-model-2.23.0.jar;C:\Users\Tasneem\.m2\repository\io\qameta\allure\allure-test-filter\2.23.0\allure-test-filter-2.23.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Tasneem\AppData\Local\Temp\surefire8580642143561734940\surefirebooter-20230722235225050_3.jar C:\Users\Tasneem\AppData\Local\Temp\surefire8580642143561734940 2023-07-22T23-52-24_869-jvmRun1 surefire-20230722235225050_1tmp surefire_0-20230722235225050_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Tasneem\workspace\testautomationu\todo-application-api-project\target\test-classes;C:\Users\Tasneem\workspace\testautomationu\todo-application-api-project\target\classes;C:\Users\Tasneem\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\Tasneem\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\Tasneem\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\Tasneem\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Tasneem\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Tasneem\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Tasneem\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Tasneem\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Tasneem\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Tasneem\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Tasneem\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\Tasneem\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\Tasneem\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\Tasneem\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\Tasneem\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Tasneem\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Tasneem\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Tasneem\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Tasneem\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\Tasneem\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\Tasneem\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\Tasneem\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Tasneem\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Tasneem\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Tasneem\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Tasneem\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Tasneem\.m2\repository\io\qameta\allure\allure-testng\2.23.0\allure-testng-2.23.0.jar;C:\Users\Tasneem\.m2\repository\io\qameta\allure\allure-java-commons\2.23.0\allure-java-commons-2.23.0.jar;C:\Users\Tasneem\.m2\repository\io\qameta\allure\allure-model\2.23.0\allure-model-2.23.0.jar;C:\Users\Tasneem\.m2\repository\io\qameta\allure\allure-test-filter\2.23.0\allure-test-filter-2.23.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Tasneem"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Tasneem\workspace\testautomationu\todo-application-api-project"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Tasneem\AppData\Local\Temp\surefire8580642143561734940\surefirebooter-20230722235225050_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2+9-61"/>
+    <property name="user.name" value="Tasneem"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Tasneem\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Tasneem\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.2"/>
+    <property name="user.dir" value="C:\Users\Tasneem\workspace\testautomationu\todo-application-api-project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-18.0.2\bin;C:\Program Files\Java\jdk1.8.0_341\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Maven\apache-maven-3.9.3\bin;C:\Users\Tasneem\scoop\shims;C:\Users\Tasneem\AppData\Local\Microsoft\WindowsApps;C:\ProgramData\Tasneem\GitHubDesktop\bin;C:\Users\Tasneem\AppData\Local\GitHubDesktop\bin;C:\Users\Tasneem\.dotnet\tools;C:\Users\Tasneem\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Tasneem\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2023.1.3\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2+9-61"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="shouldBeAbleToRegister" classname="com.qacart.todo.testcases.UserTest" time="4.254">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Arron",
+    "lastName": "Gleichner",
+    "email": "stacy.bode@hotmail.com",
+    "password": "iLikeTestAutomation"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Kendal",
+    "lastName": "Hansen",
+    "email": "tanner.graham@yahoo.com",
+    "password": "iLikeTestAutomation"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Jim",
+    "lastName": "Erdman",
+    "email": "francisca.macejkovic@gmail.com",
+    "password": "iLikeTestAutomation"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Sima",
+    "lastName": "Koelpin",
+    "email": "juanita.hamill@gmail.com",
+    "password": "iLikeTestAutomation"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Hattie",
+    "lastName": "Hane",
+    "email": "kiara.hirthe@hotmail.com",
+    "password": "iLikeTestAutomation"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Tynisha",
+    "lastName": "Vandervort",
+    "email": "virgilio.swaniawski@gmail.com",
+    "password": "iLikeTestAutomation"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Edmundo",
+    "lastName": "Lebsack",
+    "email": "pasquale.mueller@yahoo.com",
+    "password": "iLikeTestAutomation"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Tien",
+    "lastName": "Smith",
+    "email": "mickey.roberts@gmail.com",
+    "password": "iLikeTestAutomation"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YmM0ZjllMGRmNjAxMDAxNDA4YjQ2YiIsImZpcnN0TmFtZSI6IlRpZW4iLCJsYXN0TmFtZSI6IlNtaXRoIiwiaWF0IjoxNjkwMDYyNzUwfQ.ingIA3hZ1fo1505sKRjMlBt_XhHdFqhE2yd_hZefhC0; Path=/
+Set-Cookie: userID=j%3A%2264bc4f9e0df601001408b46b%22; Path=/
+Set-Cookie: firstName=Tien; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 273
+Etag: W/"111-5YKls/z2MeFPkFlW/G+IM783W/M"
+Date: Sat, 22 Jul 2023 21:52:30 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YmM0ZjllMGRmNjAxMDAxNDA4YjQ2YiIsImZpcnN0TmFtZSI6IlRpZW4iLCJsYXN0TmFtZSI6IlNtaXRoIiwiaWF0IjoxNjkwMDYyNzUwfQ.ingIA3hZ1fo1505sKRjMlBt_XhHdFqhE2yd_hZefhC0",
+    "userID": "64bc4f9e0df601001408b46b",
+    "firstName": "Tien"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YmM0ZjllMGRmNjAxMDAxNDA4YjQ2NyIsImZpcnN0TmFtZSI6IkhhdHRpZSIsImxhc3ROYW1lIjoiSGFuZSIsImlhdCI6MTY5MDA2Mjc1MH0.ShQ73sTGTZ8zsRHKF1TBceF0WAegASXdYPhy3HrtGMc; Path=/
+Set-Cookie: userID=j%3A%2264bc4f9e0df601001408b467%22; Path=/
+Set-Cookie: firstName=Hattie; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 276
+Etag: W/"114-Hn+AhmpNMeLnsSowyf8JKy486VU"
+Date: Sat, 22 Jul 2023 21:52:30 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YmM0ZjllMGRmNjAxMDAxNDA4YjQ2NyIsImZpcnN0TmFtZSI6IkhhdHRpZSIsImxhc3ROYW1lIjoiSGFuZSIsImlhdCI6MTY5MDA2Mjc1MH0.ShQ73sTGTZ8zsRHKF1TBceF0WAegASXdYPhy3HrtGMc",
+    "userID": "64bc4f9e0df601001408b467",
+    "firstName": "Hattie"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YmM0ZjllMGRmNjAxMDAxNDA4YjQ2ZCIsImZpcnN0TmFtZSI6IktlbmRhbCIsImxhc3ROYW1lIjoiSGFuc2VuIiwiaWF0IjoxNjkwMDYyNzUwfQ.xFGGVhnQrh3HfKiRoX5PI7BlzMRdBEI_JHFnVqwEe80; Path=/
+Set-Cookie: userID=j%3A%2264bc4f9e0df601001408b46d%22; Path=/
+Set-Cookie: firstName=Kendal; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 279
+Etag: W/"117-SKAxZncT18CTdzZsMZjadQjNMAw"
+Date: Sat, 22 Jul 2023 21:52:30 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YmM0ZjllMGRmNjAxMDAxNDA4YjQ2ZCIsImZpcnN0TmFtZSI6IktlbmRhbCIsImxhc3ROYW1lIjoiSGFuc2VuIiwiaWF0IjoxNjkwMDYyNzUwfQ.xFGGVhnQrh3HfKiRoX5PI7BlzMRdBEI_JHFnVqwEe80",
+    "userID": "64bc4f9e0df601001408b46d",
+    "firstName": "Kendal"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YmM0ZjllMGRmNjAxMDAxNDA4YjQ2ZiIsImZpcnN0TmFtZSI6IlR5bmlzaGEiLCJsYXN0TmFtZSI6IlZhbmRlcnZvcnQiLCJpYXQiOjE2OTAwNjI3NTB9.QojOF9ZxLVvQBeCMU-qcG82fsGSCMVK2QtdSX0M9irk; Path=/
+Set-Cookie: userID=j%3A%2264bc4f9e0df601001408b46f%22; Path=/
+Set-Cookie: firstName=Tynisha; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 286
+Etag: W/"11e-cGXAqrrue9F8O6G01NMt9V9/YY8"
+Date: Sat, 22 Jul 2023 21:52:30 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YmM0ZjllMGRmNjAxMDAxNDA4YjQ2ZiIsImZpcnN0TmFtZSI6IlR5bmlzaGEiLCJsYXN0TmFtZSI6IlZhbmRlcnZvcnQiLCJpYXQiOjE2OTAwNjI3NTB9.QojOF9ZxLVvQBeCMU-qcG82fsGSCMVK2QtdSX0M9irk",
+    "userID": "64bc4f9e0df601001408b46f",
+    "firstName": "Tynisha"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YmM0ZjllMGRmNjAxMDAxNDA4YjQ2OSIsImZpcnN0TmFtZSI6IlNpbWEiLCJsYXN0TmFtZSI6IktvZWxwaW4iLCJpYXQiOjE2OTAwNjI3NTB9.76hpjuPelLWA3vDCYuxi0YzxFpMi5Wyz5wA0HHEyvrQ; Path=/
+Set-Cookie: userID=j%3A%2264bc4f9e0df601001408b469%22; Path=/
+Set-Cookie: firstName=Sima; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 275
+Etag: W/"113-aDjC2jLj6S7N1IebNiRLCuxV6QA"
+Date: Sat, 22 Jul 2023 21:52:30 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YmM0ZjllMGRmNjAxMDAxNDA4YjQ2OSIsImZpcnN0TmFtZSI6IlNpbWEiLCJsYXN0TmFtZSI6IktvZWxwaW4iLCJpYXQiOjE2OTAwNjI3NTB9.76hpjuPelLWA3vDCYuxi0YzxFpMi5Wyz5wA0HHEyvrQ",
+    "userID": "64bc4f9e0df601001408b469",
+    "firstName": "Sima"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YmM0ZjllMGRmNjAxMDAxNDA4YjQ2MyIsImZpcnN0TmFtZSI6IkppbSIsImxhc3ROYW1lIjoiRXJkbWFuIiwiaWF0IjoxNjkwMDYyNzUwfQ.pemRMBepQW51Dt7dp9Pu2cg_R5caWzgoHSTTodw8Zbw; Path=/
+Set-Cookie: userID=j%3A%2264bc4f9e0df601001408b463%22; Path=/
+Set-Cookie: firstName=Jim; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 272
+Etag: W/"110-oeCEegU5h5yQuZ3/08j8TFnlP+w"
+Date: Sat, 22 Jul 2023 21:52:30 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YmM0ZjllMGRmNjAxMDAxNDA4YjQ2MyIsImZpcnN0TmFtZSI6IkppbSIsImxhc3ROYW1lIjoiRXJkbWFuIiwiaWF0IjoxNjkwMDYyNzUwfQ.pemRMBepQW51Dt7dp9Pu2cg_R5caWzgoHSTTodw8Zbw",
+    "userID": "64bc4f9e0df601001408b463",
+    "firstName": "Jim"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YmM0ZjllMGRmNjAxMDAxNDA4YjQ2NSIsImZpcnN0TmFtZSI6IkVkbXVuZG8iLCJsYXN0TmFtZSI6IkxlYnNhY2siLCJpYXQiOjE2OTAwNjI3NTB9.NGnXbsjWGcNQaP3m9URcuo1Ff-XWcsU6A27vwtzpIv0; Path=/
+Set-Cookie: userID=j%3A%2264bc4f9e0df601001408b465%22; Path=/
+Set-Cookie: firstName=Edmundo; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 282
+Etag: W/"11a-pCs1wTxgxfHQ+zoP0pZheIzGPYs"
+Date: Sat, 22 Jul 2023 21:52:30 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YmM0ZjllMGRmNjAxMDAxNDA4YjQ2NSIsImZpcnN0TmFtZSI6IkVkbXVuZG8iLCJsYXN0TmFtZSI6IkxlYnNhY2siLCJpYXQiOjE2OTAwNjI3NTB9.NGnXbsjWGcNQaP3m9URcuo1Ff-XWcsU6A27vwtzpIv0",
+    "userID": "64bc4f9e0df601001408b465",
+    "firstName": "Edmundo"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YmM0ZjllMGRmNjAxMDAxNDA4YjQ2MSIsImZpcnN0TmFtZSI6IkFycm9uIiwibGFzdE5hbWUiOiJHbGVpY2huZXIiLCJpYXQiOjE2OTAwNjI3NTB9.bkmpNtpaq2aOBBSW8HUNdJ2fp8Wbi8CSDC7LlfVz45U; Path=/
+Set-Cookie: userID=j%3A%2264bc4f9e0df601001408b461%22; Path=/
+Set-Cookie: firstName=Arron; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 280
+Etag: W/"118-bnBDzue9tmGiSKmU9VblosYzTKM"
+Date: Sat, 22 Jul 2023 21:52:30 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YmM0ZjllMGRmNjAxMDAxNDA4YjQ2MSIsImZpcnN0TmFtZSI6IkFycm9uIiwibGFzdE5hbWUiOiJHbGVpY2huZXIiLCJpYXQiOjE2OTAwNjI3NTB9.bkmpNtpaq2aOBBSW8HUNdJ2fp8Wbi8CSDC7LlfVz45U",
+    "userID": "64bc4f9e0df601001408b461",
+    "firstName": "Arron"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Hattie",
+    "lastName": "Hane",
+    "email": "kiara.hirthe@hotmail.com",
+    "password": "iLikeTestAutomation"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "virgilio.swaniawski@gmail.com",
+    "password": "wrongPassword"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "francisca.macejkovic@gmail.com",
+    "password": "iLikeTestAutomation"
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="shouldNotBeAbleToLoginIfThePasswordIsNotCorrect" classname="com.qacart.todo.testcases.UserTest" time="4.522">
+    <system-out><![CDATA[HTTP/1.1 400 Bad Request
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 53
+Etag: W/"35-dsxV0+vy1L0TgNQY0Spaqv/j9fw"
+Date: Sat, 22 Jul 2023 21:52:31 GMT
+Via: 1.1 vegur
+
+{
+    "message": "Email is already exists in the Database"
+}
+HTTP/1.1 401 Unauthorized
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 105
+Etag: W/"69-+ROAeTYdLtKREH6azCyNv++b54o"
+Date: Sat, 22 Jul 2023 21:52:31 GMT
+Via: 1.1 vegur
+
+{
+    "message": "The email and password combination is not correct, please fill a correct email and password"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="shouldNotBeAbleToRegisterWithTheSameEmail" classname="com.qacart.todo.testcases.UserTest" time="4.523"/>
+  <testcase name="shouldBeAbleToLogin" classname="com.qacart.todo.testcases.UserTest" time="4.617">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YmM0ZjllMGRmNjAxMDAxNDA4YjQ2MyIsImZpcnN0TmFtZSI6IkppbSIsImxhc3ROYW1lIjoiRXJkbWFuIiwiaWF0IjoxNjkwMDYyNzUxfQ.7UetMDRqd1SJm5d7oOO269WsmFrthdxa4S6B0MqGuAg; Path=/
+Set-Cookie: userID=j%3A%2264bc4f9e0df601001408b463%22; Path=/
+Set-Cookie: firstName=Jim; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 272
+Etag: W/"110-r/GX+eujAPPZDGG6+73in7Hd9Cw"
+Date: Sat, 22 Jul 2023 21:52:31 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YmM0ZjllMGRmNjAxMDAxNDA4YjQ2MyIsImZpcnN0TmFtZSI6IkppbSIsImxhc3ROYW1lIjoiRXJkbWFuIiwiaWF0IjoxNjkwMDYyNzUxfQ.7UetMDRqd1SJm5d7oOO269WsmFrthdxa4S6B0MqGuAg",
+    "userID": "64bc4f9e0df601001408b463",
+    "firstName": "Jim"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="shouldNotBeAbleToAddTodoIfIsCompletedIsMissing" classname="com.qacart.todo.testcases.TodoTest" time="5.152">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/tasks
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "item": "Blue Remembered Earth",
+    "isCompleted": false
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/tasks
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "item": "Waiting for the Barbarians",
+    "isCompleted": false
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/tasks
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "item": "learn Appuim"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/tasks
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "item": "A Glass of Blessings",
+    "isCompleted": false
+}
+HTTP/1.1 400 Bad Request
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 41
+Etag: W/"29-6r/RqTsrv9UltwKyzcuXEXN5hS4"
+Date: Sat, 22 Jul 2023 21:52:32 GMT
+Via: 1.1 vegur
+
+{
+    "message": "\"isCompleted\" is required"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="shouldBeAbleToAddTodo" classname="com.qacart.todo.testcases.TodoTest" time="5.206">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 173
+Etag: W/"ad-I4Sd8ZeaDE+9I1cFyz1xpm+0fzg"
+Date: Sat, 22 Jul 2023 21:52:32 GMT
+Via: 1.1 vegur
+
+{
+    "isCompleted": false,
+    "_id": "64bc4fa00df601001408b474",
+    "item": "Waiting for the Barbarians",
+    "userID": "64bc4f9e0df601001408b465",
+    "createdAt": "2023-07-22T21:52:32.041Z",
+    "__v": 0
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 168
+Etag: W/"a8-ZvmCMRr3/bqeWK8WTDqK5iixKyo"
+Date: Sat, 22 Jul 2023 21:52:32 GMT
+Via: 1.1 vegur
+
+{
+    "isCompleted": false,
+    "_id": "64bc4fa00df601001408b476",
+    "item": "Blue Remembered Earth",
+    "userID": "64bc4f9e0df601001408b46b",
+    "createdAt": "2023-07-22T21:52:32.044Z",
+    "__v": 0
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 167
+Etag: W/"a7-mPSPb5TJsAjwZ6cczvnjnbLknx4"
+Date: Sat, 22 Jul 2023 21:52:32 GMT
+Via: 1.1 vegur
+
+{
+    "isCompleted": false,
+    "_id": "64bc4fa00df601001408b478",
+    "item": "A Glass of Blessings",
+    "userID": "64bc4f9e0df601001408b469",
+    "createdAt": "2023-07-22T21:52:32.046Z",
+    "__v": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="shouldBeAbleToGetTodo" classname="com.qacart.todo.testcases.TodoTest" time="5.611">
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/tasks/64bc4fa00df601001408b478
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/tasks/64bc4fa00df601001408b474
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 173
+Etag: W/"ad-I4Sd8ZeaDE+9I1cFyz1xpm+0fzg"
+Date: Sat, 22 Jul 2023 21:52:32 GMT
+Via: 1.1 vegur
+
+{
+    "isCompleted": false,
+    "_id": "64bc4fa00df601001408b474",
+    "item": "Waiting for the Barbarians",
+    "userID": "64bc4f9e0df601001408b465",
+    "createdAt": "2023-07-22T21:52:32.041Z",
+    "__v": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="shouldBeAbleToDeleteTodo" classname="com.qacart.todo.testcases.TodoTest" time="5.646">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 167
+Etag: W/"a7-mPSPb5TJsAjwZ6cczvnjnbLknx4"
+Date: Sat, 22 Jul 2023 21:52:32 GMT
+Via: 1.1 vegur
+
+{
+    "isCompleted": false,
+    "_id": "64bc4fa00df601001408b478",
+    "item": "A Glass of Blessings",
+    "userID": "64bc4f9e0df601001408b469",
+    "createdAt": "2023-07-22T21:52:32.046Z",
+    "__v": 0
+}
+]]></system-out>
+  </testcase>
+</testsuite>

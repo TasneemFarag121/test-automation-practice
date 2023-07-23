@@ -18,6 +18,7 @@ public class TodoTest {
 
     @Test
     public void shouldBeAbleToAddTodo(){
+        System.out.println("Test the CI/CD");
 
         Todo todo = TodoSteps.generateTodo();
 

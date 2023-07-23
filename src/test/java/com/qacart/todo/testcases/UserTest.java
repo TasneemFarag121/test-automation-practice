@@ -28,18 +28,6 @@ public class UserTest {
     assertThat(returnedUser.getFirstName(),equalTo(user.getFirstName()));
 
  }
-    public void shouldBeAbleToRegister_git(){
-
-        User user = UserSteps.generateUser();
-
-        Response response = UserApi.register(user);
-
-        User returnedUser = response.body().as(User.class);
-
-        assertThat(response.statusCode(),equalTo(201));
-        assertThat(returnedUser.getFirstName(),equalTo(user.getFirstName()));
-
-    }
  @Test
     public void shouldNotBeAbleToRegisterWithTheSameEmail(){
 
